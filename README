@@ -1,0 +1,45 @@
+
+
+h1. Welcome to the peppermint-palette wiki!
+
+A google app-engine project, return downloadable color palettes on GET request based on Piyawut Pattamanon's work.
+
+h2. Examples
+
+    * /palette/download.acf?rgb=111111|666666|999999|aaaaaa|cccccc|dddddd|fa1265|12ff34|56aa89
+    * /palette/download.gpl?rgb=ff9900|ff0000|ff00ff
+    * /palette/download.gpl?rgb=255.00,255.00,255.00|255.00,255.00,255.00
+    * /palette/download.gpl?cmyk=100,100,100,100|100,100,100,100
+
+h2. Supported input formats
+
+    * RGB
+    * CMYK
+    * HSV
+    * LAB
+
+h2. Supported output formats
+
+    * .gpl (GIMP)
+    * .aco (Photoshop)
+    * .ai (Illustrator)
+    * .html
+    * .css
+    * .design.xml (Expression Design)
+    * .wpf.xaml (WPF)
+    * .silverlight.xaml (Silverlight)
+    * .paint.net.txt (Paint.NET)
+    * .psp.pal (Paint Shop Pro)
+    * .colors (KOffice)
+    * .spl (Skencil)
+    * .scribus.xml (Scribus)
+    * .soc (OpenOffice.org)
+    * .skp (sK1)
+    * .acf (Aldus/Adobe PageMaker + Aldus/Macromedia/Adobe Freehand + Adobe FrameMaker)
+    * .hpl (Allaire Homesite / ColdFusion)
+    * .coreldraw4.pal (CorelDRAW 4)
+    * .act (Adobe Color Table)
+    * .acbl (ACBL (Adobe Color Book Legacy) Adobe Creative Suite 3)
+
+h2. References
+    * "Selapa Color swatch file formats":http://www.selapa.net/couleurs/fileformats.php
